@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 5: Charts</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"> </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>World Population Over Time</h1>
+      <h2>Number of people (in millions) living on earth, the last 500 years</h2>
+    </div>
+    <canvas id="myChart" width="1600" height="900"></canvas>
+    <div class="wrapper">
+      <h1>COVID-19 (Questionable) Updates</h1>
+      <h2>Fatality rates (percentage) by country as of March 4, 2020</h2>
+    </div>
+    <canvas id="covidChart" width="800" height="450"></canvas>
+    <script src="script.js"></script>
+    <p>As with all data and information provided to users, it is important to question where data are coming from. Alexis Madrigal’s <a href="https://www.theatlantic.com/technology/archive/2020/03/how-many-americans-really-have-coronavirus/607348/" style="display: inline" target="_blank"> post</a> in The Atlantic sheds light on these graphs, where he outright states how inaccurate they are and can cause more panic than reassurance.</p>
+
+    <p>Most of the bars in the chart appear to actually be higher in reality. Factors that pertain to the inaccuracy of these results include missed testing cases by the CDC, tests only done on travelers rather than community members, and not necessarily testing those with mild or no symptoms.</p>
+
+    <p>Overall, it is clear that each country’s total number of cases and deaths are dependent on the particular means of accounting and gathering said numbers.</p>
+
+    <p>Do your research, WASH YOUR HANDS, be kind, and please…stop hoarding the hand sanitizer and toilet paper.</p>
+  </body>
+  <!-- Thanks to Tobias Ahlin, whose chart.js tutorial forms the basis of the line graph portion of this exercise -->
+</html>
